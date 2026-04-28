@@ -8,9 +8,7 @@
 //primitive data types:
 
 //1. number
-//range
-console.log(Number.MIN_SAFE_INTEGER)
-console.log(Number.MAX_SAFE_INTEGER);
+
 let i=10;
 console.log(i);
 console.log(typeof (i))
@@ -63,42 +61,3 @@ console.log(typeof flag);
 
 let rest='true';
 console.log(typeof rest);
-//size :~ 1 byte=8 bits
-
-let num=Number.MIN_SAFE_INTEGER;
-console.log(num);
-let num1=num+1;
-console.log(num1);
-
-//4. BigInt
-
-let amt=9007199254740991n;
-console.log(typeof amt)
-
-let x=10; //number
-let y=20n; //bigInt
-// console.log(x+y);
-
-
-let pop = BigInt(100)
-console.log(pop);
-console.log(typeof pop);
-console.log(pop +"--->" +typeof pop);
-
-//In this statement, you are using the + operator with a String ("--->"). This triggers Implicit Coercion. JavaScript automatically converts the BigInt to a standard string
-//When a BigInt is converted to a string (via .toString() or string concatenation), the n is omitted. It becomes the literal characters "100".
-
-//5. null.  : nothing /no value
-//size: ->0 to 8 bytes depends on engine that we are using
-
-let myName=null;
-let data=null;
-console.log(data);
-console.log(typeof data);
-
-//6. undefined
-
-let v;
-console.log(v); // size: 0 to 8 bytes depends on engine
-
-
