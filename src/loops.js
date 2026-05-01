@@ -119,3 +119,24 @@ do {
 } while (batteryLevel);
 
 // Result: Prints "Attempting to boot device..." once, then stops.
+
+// find the secondMax number from Array and Max number
+function getSecondMaxNumber(arr) {
+    let max = -Infinity;
+    let secondMax = -Infinity;
+
+    for (const num of arr) {
+        if (num > max) {
+            secondMax = max;
+            max = num;
+        }
+        else if (num > secondMax && num < max) {
+            secondMax = num;
+        }
+    }
+    return secondMax;
+}
+
+let arr = [10, 12, 34, 21, 45];
+const secondmax = getSecondMaxNumber(arr);
+console.log(secondmax);
