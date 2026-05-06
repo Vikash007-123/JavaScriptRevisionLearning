@@ -19,3 +19,4 @@ for (let i = 0; i <= num1.length - 1; i++) {
     process.stdout.write(`\n`)
 }
 process.stdout.write(`\n`)
+
