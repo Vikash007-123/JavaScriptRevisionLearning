@@ -55,8 +55,23 @@ console.log(num)
 
 
 //Splice --
+let num2 = [67, 89, 90, 23, 45]
 
-num1()
+num2.splice(0, 2, 78);
+
+console.log(num2)
+
+let empData = ["Vikash", 30, 'IBM', 'SDET', true];
+console.log(empData)
+
+let d = Array.of("Hi", 23, 45, "Hello")
+console.log(d);
+
+let n = Array.from("Playwright");
+console.log(n)
+
+
+
 
 
 
