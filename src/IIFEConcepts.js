@@ -12,7 +12,12 @@
     console.log("Hello world")
     console.log(browserName)
 
-})('chrome')
+})('chrome');
+(function () {
+    console.log('hello world');
+    console.log(10 + 20);
+
+})();
 
 
 
