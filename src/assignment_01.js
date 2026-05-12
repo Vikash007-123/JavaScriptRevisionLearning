@@ -73,3 +73,23 @@ let greaterThan50 = function (arr) {
 const numbers = [12, 65, 34, 89, 23, 90, 100];
 let a = greaterThan50(numbers);
 console.log(a)
+
+
+
+/**
+ * Q15. reduce()
+Task:
+Find:
+Sum
+Maximum
+Frequency counter
+Example:
+["a","b","a","c","b","a"]
+Output:
+{
+ a:3,
+ b:2,
+ c:1
+}
+
+ */
